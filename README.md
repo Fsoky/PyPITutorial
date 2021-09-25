@@ -56,5 +56,5 @@ poetry publish -r testpypi --username YOUR_USERNAME --password YOUR_PASSWORD --b
 poetry publish --username YOUR_USERNAME --password YOUR_PASSWORD --build
 ```
 
-Думаю это в принципе полезная небольшая статья, о том как опубликовать модуль на PyPI.
+Думаю это в принципе полезная небольшая статья, о том как опубликовать модуль на PyPI. \
 **[Как написать свой модуль?]()** скоро...

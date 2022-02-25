@@ -121,7 +121,7 @@ tag_date = 0
 
 ### setup.py
 ```py
-from setuptools import setup # pip install setuptools
+from setuptools import setup, find_packages # pip install setuptools
 from io import open
 
 
@@ -139,7 +139,8 @@ setup(name="Название твоего пакета",
    author="Имя автора",
    author_email="почта_автора@gmail.com",
    url="https://github.com/Fsoky/Upload-library-to-PyPI", # Страница проекта
-   keywords="api some_keyword tools" # Ключевые слова для упрощеннего поиска пакета на PyPi
+   keywords="api some_keyword tools", # Ключевые слова для упрощеннего поиска пакета на PyPi
+   packages=find_packages() # Ищем пакеты, или можно передать название списком: ["package_name"]
 )
 ```
 
